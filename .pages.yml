@@ -1,0 +1,12 @@
+media:
+  input: public/images
+  output: /images
+content:
+  - name: thibi
+    label: Trang Thí Bi
+    type: file
+    path: thibi.html
+    fields:
+      - name: body
+        label: Nội dung HTML
+        type: code
